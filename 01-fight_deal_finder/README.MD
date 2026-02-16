@@ -47,8 +47,11 @@ flight-deals-tracker/
 2. It checks the Google Sheet for missing IATA codes.  
 3. If missing, it queries the Amadeus API to retrieve them.  
 4. It generates search dates based on user input (months ahead).  
-5. It searches for the lowest available flight price.  
+5. It searches for the lowest available flight price from the origin city.  
 6. It updates the Google Sheet automatically.  
+
+**Note:** You need to set your origin city in `main.py` (default is Iata: LOS - Aeroporto Internacional Murtala Muhammed) or update it to your preferred departure airport.  
+
 
 ---
 
